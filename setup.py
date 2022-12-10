@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ib-cp-gateway",
-    version="0.0.1",
+    version="1.0.0",
     author="Hurin Hu",
     author_email="hurin@live.ca",
     description="This is a simple IB Client Portal Gateway RESTFul api, IB Client Portal Gateway can be run on Raspberry Pi or any other ARM machine(IB Gateway and TWS are not able to run on ARM).",

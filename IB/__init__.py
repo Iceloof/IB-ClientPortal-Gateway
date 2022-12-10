@@ -12,7 +12,7 @@ class API:
 	def __init__(self, url="https://localhost:5000", ssl=False) -> None:
 		self.url = f"{url}/v1/api/"
 		self.ssl = ssl
-		self.version = '0.0.1'
+		self.version = '1.0.0'
 		self.validated = self.get_validate()
 		while self.validated == "Authentication failed" or self.validated == "Authentication failed":
 			print('Waiting for authentication')
